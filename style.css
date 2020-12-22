@@ -1,0 +1,267 @@
+.body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /*--Navigation--*/
+  
+  .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+
+  .nav{
+    border-bottom:1px solid rgba(70, 68, 68, 0.795);
+    padding-bottom:10px;
+    
+}
+
+
+.button u{
+    color: #23ddc1 ;
+}
+
+.button .heading{
+color: #23ddc1 ;
+}
+
+.button p{
+    font-size: 22px;
+}
+  .navbar {
+    position: fixed;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgb(0, 0, 0)! important;
+    border-bottom: 2px solid #505962;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .navbar-brand img{
+    
+    height: 2rem;
+  }
+  
+  .navbar-nav li{
+    padding-right: .7rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+  }
+  
+  .navbar-dark .navbar-brand .nav-link.active,
+  .navbar-brand .navbar-nav .nav-link:hover{
+    color: #23ddc1;
+  }
+
+  .home-inner{
+    background-image: url('img/computers.png');
+  }
+
+  .landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    background: #E9ECEF;
+    z-index: -1;
+  }
+  .home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .home-inner {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+  }
+  .caption input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .make svg.svg-inline--fa{
+      color: #491970;
+  }
+
+.border{
+    border: rgb(39, 37, 37);
+    border-radius: 6px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.heading h5{
+    color:#0f8d72 ;
+}
+
+  .feature svg.svg-inline--fa{
+    color: #0f8d72;
+      }
+
+      .feature h4{
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        padding-bottom: .4rem;
+      }
+      .feature p{
+        font-size: 1.1rem;
+      }
+
+      .offset:before{
+        display: block;
+        content: "";
+        height: 4rem;
+        margin-top: -4rem;
+      }
+
+      .narrow {
+        width: 75%;
+        margin: 1.5rem auto;
+        padding-top: 2rem;
+      }
+
+.provider img{
+    width: 50%;
+    border-radius: 30%;
+}
+
+img.resize{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+  }
+
+  .btn-secondary {
+    border-width: large;
+    border-radius: 0;
+    padding: .6rem 1.2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 1rem;
+    border-color: #1EBBA3;
+    background-color: #1EBBA3;
+    color: white;
+  }
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    border-color: #189582;
+    background-color: #189582;
+    color: white;
+  }
+
+  .btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 1rem;
+    border-color: #565858;
+    background-color: #eff0f0;
+    color: rgb(78, 75, 75);
+  }
+  .btn-outline:hover,
+  .btn-outline:focus{
+    border-color: #363b3b;
+    background-color: #e2ebe9;
+    color: rgb(63, 58, 58);
+  }
+
+.clients{
+    color: white;
+    background-color: #491970;
+}
+
+.clients img{
+    text-align: center;
+    max-width: 80%;
+    max-height: 70%;
+    border-radius: 10%;
+    
+  }
+
+  blockquote{
+      margin-top: 3px;
+      font-size: 36px;
+      
+  }
+
+  .yellow{
+      color: rgb(209, 172, 7);
+      font-size: 34px
+  }
+
+.clients .svg-inline--fa{
+    color: #1EBBA3;
+    margin: 1rem;
+    align-items: center;
+    max-width: 100%;
+}
+
+  @media (max-width: 767px)
+  {
+      .caption input[type=text]
+      {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+        border: 1px solid #ccc;
+      }
+    .provider img{
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+    .clients img{
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+      }
+  }
